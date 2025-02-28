@@ -48,7 +48,7 @@ def clientes(num):
 
 
 if __name__ == "__main__":
-    freeze_support()
+    #freeze_support()
     
     thread_servidor = threading.Thread(target=servidor)
     thread_servidor.start()
